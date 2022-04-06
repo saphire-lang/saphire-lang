@@ -1,0 +1,50 @@
+require "option_parser"
+require "./prefix/**"
+
+class Saf
+
+
+	
+	def self.debug
+		system("crystal run ./index.saf")
+end
+
+
+def self.build
+system("crystal build saphirelang.saf")
+	end
+
+
+	
+OptionParser.parse do |parser|
+  parser.banner = "Welcome to SaphireLang!!"
+
+		parser.on "-i", "--index", "Debug /projects/ index.saf file" do
+    puts "debugging"
+		Saf.debug
+	 exit
+  end
+  parser.on "-h", "--help", "Show help" do
+    puts parser
+    exit
+		end
+
+parser.on "-n", "--new", "Create a new index.saf into /projects" do
+			system("cp ./assets/presets/index.saf ./projects/")
+			puts "new project created at ./projects/index.saf"
+		exit
+		end
+
+	parser.on "-c", "--compact", "compact your index.saf file" do
+puts "compacting..."
+Saf.compact
+exit
+end
+
+	parser.on "-f", "--fetch", "fetch new shards from shard.yml" do
+Saf.fetch
+exit
+end
+
+		end
+	end

@@ -1,0 +1,23 @@
+name: saphirelang
+version: 0.1.0
+
+authors:
+  - nillythel0l <iagodp08@gmail.com>
+
+description: |
+  A programming language made with crystal and athena
+
+dependencies:
+  pg:
+    github: will/crystal-pg
+    version: "~> 0.5"
+
+  athena:
+    github: athena-framework/framework
+    version: ~> 0.16.0
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+license: MIT
