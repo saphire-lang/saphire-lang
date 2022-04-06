@@ -6,6 +6,7 @@
 saphire is a lang made with [crystal-lang](https://crystal-lang.org)
 and [Athena Framework](https://athenaframework.org/) made for you build your own sites
 *You must have install crystal-lang to run saphire*
+*my prefix is .saf*
 
 *Im mading his prefix and only have Saf.fetch and Saf.compress*
 
