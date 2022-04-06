@@ -24,4 +24,4 @@ chmod +x build
 ```
 
 # Usage
-for usages and etc go to Wiki
+for usages and etc go to [Wiki](https://saphire-lang.emperror.repl.co/)
