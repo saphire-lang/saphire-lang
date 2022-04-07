@@ -28,13 +28,19 @@ OptionParser.parse do |parser|
 
 parser.on "-na", "--newathena", "Create a new athena framework index.saf into /projects" do
 			system("cp ./assets/presets/index-athena.saf ./projects/")
-			puts "new project created at ./projects/index.saf"
+			puts "new project created at ./projects/index-athena.saf"
 		exit
 		end
 
 parser.on "-nk", "--newkemal", "Create a new kemal framework index.saf into /projects" do
 			system("cp ./assets/presets/index-kemal.saf ./projects/")
-			puts "new project created at ./projects/index.saf"
+			puts "new project created at ./projects/index-hemal.saf"
+		exit
+		end
+
+parser.on "-ng", "--newgrip", "Create a new grip framework index.saf into /projects" do
+			system("cp ./assets/presets/index-grip.saf ./projects/")
+			puts "new project created at ./projects/index-grip.saf"
 		exit
 		end
 
