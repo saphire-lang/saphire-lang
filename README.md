@@ -3,8 +3,8 @@
 
 
 *its saphire with one p lol!*
-saphire is a lang made with [crystal-lang](https://crystal-lang.org)
-and [Athena Framework](https://athenaframework.org/) made for you build your own sites
+*note: some may not considere saphire a lang but me yes*
+saphire is a lang made with [crystal-lang](https://crystal-lang.org) , [Athena Framework](https://athenaframework.org/) , [Kemal Framework](https://github.com/kemalcr/kemal) , [Grip Framework](https://github.com/grip-framework/grip) made for you build your own sites
 *You must have install crystal-lang to run saphire*
 *You must have Cake to run saphire* [Install](https://github.com/axvm/cake)
 *my prefix is .saf*
