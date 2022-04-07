@@ -1,0 +1,16 @@
+## import language prefix and required packages
+require "../prefix/**"
+require "athena"
+
+## you code go here:
+class ExampleController < ATH::Controller
+  # Define an action to handle the related route
+  @[ARTA::Get("/")]
+  def index : String
+    "Hello World"
+  end
+  get "/" do
+    "Hello World"
+  end
+end
+ATH.run
