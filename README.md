@@ -1,6 +1,9 @@
-# Saphire Lang
+# Saphire Lang Kit
 ![133-1330769_vector-royalty-free-stock-drawing-gems-sapphire-steven](https://user-images.githubusercontent.com/103150701/162079903-7b240197-00a6-4fb2-acc2-dadde9a4bbab.jpg)
 
+
+# About and warns
+saphire-lang is a kit of 3 web frameworks to help newbies to create your own website easly
 
 *its saphire with one p lol!*
 *note: some may not considere saphire a lang but me yes*
