@@ -6,6 +6,7 @@
 saphire is a lang made with [crystal-lang](https://crystal-lang.org)
 and [Athena Framework](https://athenaframework.org/) made for you build your own sites
 *You must have install crystal-lang to run saphire*
+*You must have Cake to run saphire* [Install](https://github.com/axvm/cake)
 *my prefix is .saf*
 
 *Im mading his prefix and only have Saf.fetch and Saf.compress*
@@ -18,11 +19,9 @@ git clone https://github.com/saphire-lang/saphire-lang.git ~/saf
 cd ~/saf
 ```
 ```sh
-chmod +x build
+cake build
 ```
-```
-./build
-```
+
 
 # Usage
 for usages and etc go to [Wiki](https://saphire-lang.emperror.repl.co/)
