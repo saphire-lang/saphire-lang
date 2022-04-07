@@ -1,5 +1,5 @@
 class Saf
 	def self.compact
-		system("crystal build ./index.saf")
+		system("crystal build ./index*.saf")
 	end
 end
