@@ -16,6 +16,10 @@ dependencies:
     github: athena-framework/framework
     version: ~> 0.16.0
 
+  kemal:
+    github: kemalcr/kemal
+
+
 # development_dependencies:
 #   webmock:
 #     github: manastech/webmock.cr
